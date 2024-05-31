@@ -130,7 +130,18 @@ section {
     margin: 0; 
     padding: 0;
     margin-bottom: 0;
+    text-align: center;
 
+}
+#Experience h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: block;
+    width: 100%;
 }
 
   #Experience p, h2{
@@ -149,22 +160,20 @@ section {
     text-shadow: #000;
 }
 .justified{
-    text-align: justify;
-}
-.left{
-    text-align: left;
-}
-.box4 p{
+    text-align: center;
 }
 .box1, .box2, .box3, .box4{
-    width: 370px;
-    height: 400px;
+    display: inline-block;
+    width: 300px;
+    height: 150px;
     background: linear-gradient(to right, #550369, #046179);
     margin: 15px;
     padding: 5px;
-    color: rgb(7, 3, 3);
+    color: rgb(236, 227, 227);
     text-align: center;
+    border-radius: 20px;
     transition: .3s ease-in-out;
+    cursor: pointer;
 }
 .box1:hover,
 .box2:hover,
@@ -377,6 +386,7 @@ section {
 
 #about p {
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .main-footer {
@@ -386,6 +396,8 @@ section {
     text-align: center;
     width: 100%;
     margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .main-footer .contact-info {
