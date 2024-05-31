@@ -10,7 +10,7 @@
 body {
     height: 310vh;
     overflow-x: hidden;
-    background: #f5f5f5;
+    background: ivory;
 }
 
 header, main, footer {
@@ -37,6 +37,24 @@ header, main, footer {
     width: 100%; 
   }
 
+#Objectives {
+    width: 100%;
+  height: 100vh; /* make the section take up the full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/large2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+.obj {
+    margin-top: 30px;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+  }
   nav {
     position: fixed;
     top: 0;
@@ -509,7 +527,15 @@ section {
        flex-direction: column; /* change the layout to column for mobile devices */
      }
      .container {
-        background-image: url("./img/background3.png");
+        background-image: url("./img/small1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+      }
+      #Objectives {
+        background-image: url("./img/small2.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -530,7 +556,15 @@ section {
        flex-direction: row; /* change the layout to row for tablets */
      }
      .container {
-        background-image: url("./img/background1.png");
+        background-image: url("./img/meduim1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+      }
+      #Objectives {
+        background-image: url("./img/medium2.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -553,7 +587,17 @@ section {
         display: none;
      }
      .container {
-        background-image: url("./img/background1.png");
+        background-image: url("./img/large1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+      .background {
+        display: none;
+      }
+      #Objectives {
+        background-image: url("./img/large2.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -564,6 +608,7 @@ section {
       }
    }
 }
+   }
 @media (max-width: 768px) {
     nav {
         flex-direction: row;
